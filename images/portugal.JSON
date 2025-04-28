@@ -1,0 +1,149 @@
+[{
+  "version": "1.0",
+  "image": {
+    "name": "portugal.tiff",
+    "baseName": "portugal.tiff",
+    "permissions": 644,
+    "format": "TIFF",
+    "formatDescription": "Tagged Image File Format",
+    "mimeType": "image/tiff",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 800,
+      "height": 534,
+      "x": 0,
+      "y": 0
+    },
+    "units": "PixelsPerInch",
+    "type": "TrueColorAlpha",
+    "baseType": "TrueColor",
+    "endianness": "MSB",
+    "colorspace": "sRGB",
+    "depth": 16,
+    "baseDepth": 8,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 16,
+      "green": 16,
+      "blue": 8
+    },
+    "pixels": 427200,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 255,
+        "mean": 129.49,
+        "median": 139,
+        "standardDeviation": 52.0336,
+        "kurtosis": 140.25,
+        "skewness": -4.14903,
+        "entropy": 0.165885
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 78,
+        "max": 255,
+        "mean": 254.67,
+        "median": 255,
+        "standardDeviation": 7.60919,
+        "kurtosis": 528.999,
+        "skewness": -23.0434,
+        "entropy": 0.0124247
+      },
+      "red": {
+        "min": 0,
+        "max": 255,
+        "mean": 152.353,
+        "median": 237,
+        "standardDeviation": 112.875,
+        "kurtosis": -1.63568,
+        "skewness": -0.575928,
+        "entropy": 0.215587
+      },
+      "green": {
+        "min": 28,
+        "max": 255,
+        "mean": 65.599,
+        "median": 28,
+        "standardDeviation": 54.7757,
+        "kurtosis": 3.61628,
+        "skewness": 1.8675,
+        "entropy": 0.223105
+      },
+      "blue": {
+        "min": 0,
+        "max": 255,
+        "mean": 45.3358,
+        "median": 36,
+        "standardDeviation": 32.8751,
+        "kurtosis": 30.0196,
+        "skewness": 5.15572,
+        "entropy": 0.212424
+      }
+    },
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBDBDBDBD",
+    "backgroundColor": "#FFFFFFFFFFFF",
+    "borderColor": "#DFDFDFDFDFDF",
+    "transparentColor": "#000000000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 800,
+      "height": 534,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "compression": "None",
+    "orientation": "TopLeft",
+    "properties": {
+      "date:create": "2025-04-28T07:36:59+00:00",
+      "date:modify": "2025-04-28T07:28:33+00:00",
+      "date:timestamp": "2025-04-28T07:54:51+00:00",
+      "icc:copyright": "Copyright (c) 1998 Hewlett-Packard Company",
+      "icc:description": "sRGB IEC61966-2.1",
+      "icc:manufacturer": "IEC http://www.iec.ch",
+      "icc:model": "IEC 61966-2.1 Default RGB colour space - sRGB",
+      "signature": "4cc8746d1ca0b44cb5a8b866d80ad8357b74f7854c9a45dbfa2bc7db9e465f75",
+      "tiff:alpha": "associated",
+      "tiff:endian": "msb",
+      "tiff:photometric": "RGB",
+      "tiff:rows-per-strip": "40"
+    },
+    "profiles": {
+      "icc": {
+        "length": 3144
+      }
+    },
+    "tainted": false,
+    "filesize": "1.71228MB",
+    "numberPixels": "427200",
+    "pixelsPerSecond": "127.404MB",
+    "userTime": "0.000u",
+    "elapsedTime": "0:01.003",
+    "version": "ImageMagick 7.1.1-47 Q16-HDRI aarch64 22763 https://imagemagick.org"
+  }
+}]
