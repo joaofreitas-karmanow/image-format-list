@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Picture Test</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .item {
+            background: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            width: 200px;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Picture Test</h1>
+    <div class="gallery">
+        <picture>
+            <source media="(min-width: 40em)"    srcset="//images.ctfassets.net/cesi7lh7rfv6/6fQuTwDhkeUr2cgZ2R3XaJ/237653460f5189ae9b0c05da80900780/Unbenannt-1.jpg?w=300&amp;fm=webp">     <source media="(min-width: 40em)" srcset="//images.ctfassets.net/cesi7lh7rfv6/6fQuTwDhkeUr2cgZ2R3XaJ/237653460f5189ae9b0c05da80900780/Unbenannt-1.jpg?w=300"> <source type="image/webp" srcset="//images.ctfassets.net/cesi7lh7rfv6/6fQuTwDhkeUr2cgZ2R3XaJ/237653460f5189ae9b0c05da80900780/Unbenannt-1.jpg?w=120&amp;fm=webp"> <source type="image/jpeg" srcset="//images.ctfassets.net/cesi7lh7rfv6/6fQuTwDhkeUr2cgZ2R3XaJ/237653460f5189ae9b0c05da80900780/Unbenannt-1.jpg?w=60"> <img src="//images.ctfassets.net/cesi7lh7rfv6/6fQuTwDhkeUr2cgZ2R3XaJ/237653460f5189ae9b0c05da80900780/Unbenannt-1.jpg" alt="Accessories" title="Accessories" class="border--gray">
+        </picture>
+    </div>
+</body>
+
+</html>
